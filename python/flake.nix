@@ -34,8 +34,6 @@
                 venvShellHook
                 rich
                 textual
-                pandas
-
               ]);
           };
         }
