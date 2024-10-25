@@ -1,29 +1,28 @@
-# Nix flake templates for easy dev environments
+# Nix flake templates for easy dev environments (FKF's FORK)
 
 [![built with nix](https://builtwithnix.org/badge.svg)](https://builtwithnix.org)
 
 To initialize (where `${ENV}` is listed in the table below):
 
 ```shell
-nix flake init --template "https://flakehub.com/f/the-nix-way/dev-templates/*#${ENV}"
+nix flake init --template "https://flakehub.com/f/fruity-fkf/dev-templates/*#${ENV}"
 ```
 
-Here's an example (for the [`rust`](./rust) template):
 
 ```shell
 # Initialize in the current project
-nix flake init --template "https://flakehub.com/f/the-nix-way/dev-templates/*#rust"
+nix flake init --template "https://flakehub.com/f/fruity-fkf/dev-templates/*#rust"
 
 # Create a new project
-nix flake new --template "https://flakehub.com/f/the-nix-way/dev-templates/*#rust" ${NEW_PROJECT_DIRECTORY}
+nix flake new --template "https://flakehub.com/f/fruity-fkf/dev-templates/*#rust" ${NEW_PROJECT_DIRECTORY}
 ```
 
 ## How to use the templates
 
 Once your preferred template has been initialized, you can use the provided shell in two ways:
 
-1. If you have [`nix-direnv`][nix-direnv] installed, you can initialize the environment by running `direnv allow`.
-2. If you don't have `nix-direnv` installed, you can run `nix develop` to open up the Nix-defined shell.
+1. If you have [`nix-direnv`][nix-direnv] installed, you can initialize the environment by running `direnv allow`. (IDK Never used it 🤷)
+2. If you don't have `nix-direnv` installed, you can run `nix develop` to open up the Nix-defined shell. (Best way ✅)
 
 ## Available templates
 
@@ -73,6 +72,8 @@ Once your preferred template has been initialized, you can use the provided shel
 
 The sections below list what each template includes. In all cases, you're free to add and remove packages as you see fit; the templates are just boilerplate.
 
+I added onefetch to the ones I use because onefetch is kinda cool :D
+
 ### [`bun`](./bun/)
 
 - [bun] 1.1.29
@@ -90,6 +91,7 @@ The sections below list what each template includes. In all cases, you're free t
 - [lcov] 1.0
 - [vcpkg]
 - [vcpkg-tool]
+- [gcc and glibc for the GNU fans]
 
 ### [`clojure`](./clojure/)
 
@@ -267,6 +269,9 @@ A dev template that's fully customizable.
 
 - [Python] 3.11.4
 - [pip] 23.0.1
+- [Conda]
+- [Poetry]
+- [Rich/Textual from [Here](https://github.com/Textualize) ]
 
 ### [`r`](./r/)
 
