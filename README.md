@@ -19,10 +19,10 @@ nix flake init --template "https://flakehub.com/f/fruity-fkf/dev-templates/*#${E
 
 ```shell
 # Initialize in the current project
-nix flake init --template "https://flakehub.com/f/fruity-fkf/dev-templates/*#rust"
+nix flake init --template "https://flakehub.com/f/fruity-fkf/dev-templates/*#c-cpp"
 
 # Create a new project
-nix flake new --template "https://flakehub.com/f/fruity-fkf/dev-templates/*#rust" ${NEW_PROJECT_DIRECTORY}
+nix flake new --template "https://flakehub.com/f/fruity-fkf/dev-templates/*#c-cpp" ${NEW_PROJECT_DIRECTORY}
 ```
 
 ## How to use the templates
