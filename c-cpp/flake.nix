@@ -40,10 +40,10 @@
                     vcpkg
                     vcpkg-tool
                     gcc
-                    glibc
                     onefetch
                     # -----Optional-----
                     # uclibc
+                    # glibc
                     # musl
                   ]
                   ++ (if system == "aarch64-darwin" then [ ] else [ gdb ]);
