@@ -39,12 +39,16 @@
                     lcov
                     vcpkg
                     vcpkg-tool
-                    gcc
                     onefetch
+                    libclang
+                    clang-manpages
+                    stdmanpages
                     # -----Optional-----
                     # uclibc
                     # glibc
                     # musl
+                    # gcc
+
                   ]
                   ++ (if system == "aarch64-darwin" then [ ] else [ gdb ]);
               };
