@@ -75,6 +75,7 @@ Once your preferred template has been initialized, you can use the provided shel
 | [Swift]                          | [`swift`](./swift)                    |
 | [Vlang]                          | [`vlang`](./vlang/)                   |
 | [Zig]                            | [`zig`](./zig/)                       |
+| Malware analysis  and reverse engineer                |  rev-eng                          |
 
 ## Template contents
 
