@@ -314,6 +314,10 @@
             path = ./zig;
             description = "Zig development environment";
           };
+          lua = {
+            path = ./lua;
+            description = "lua shit";
+          };
 
           # Aliases
           c = c-cpp;

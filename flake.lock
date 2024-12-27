@@ -2,12 +2,12 @@
   "nodes": {
     "nixpkgs": {
       "locked": {
-        "lastModified": 1729691686,
-        "narHash": "sha256-BAuPWW+9fa1moZTU+jFh+1cUtmsuF8asgzFwejM4wac=",
-        "rev": "32e940c7c420600ef0d1ef396dc63b04ee9cad37",
-        "revCount": 636089,
+        "lastModified": 1735066050,
+        "narHash": "sha256-vCBl6vYGi0QB11TMqdndLa7/UzxvuJUvKazlEnMTEX4=",
+        "rev": "17fcc7929706c2bd08db2b785edbb23a66b2f681",
+        "revCount": 637380,
         "type": "tarball",
-        "url": "https://api.flakehub.com/f/pinned/NixOS/nixpkgs/0.2405.636089%2Brev-32e940c7c420600ef0d1ef396dc63b04ee9cad37/0192bfae-1d8a-7942-8afe-275b30ae6ef9/source.tar.gz"
+        "url": "https://api.flakehub.com/f/pinned/NixOS/nixpkgs/0.2405.637380%2Brev-17fcc7929706c2bd08db2b785edbb23a66b2f681/019401c6-b45c-7c5a-8169-33329dc6c874/source.tar.gz"
       },
       "original": {
         "type": "tarball",
