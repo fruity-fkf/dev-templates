@@ -314,6 +314,8 @@
             path = ./zig;
             description = "Zig development environment";
           };
+rev-eng = {path = ./rev-eng;
+description = "yes";};
           lua = {
             path = ./lua;
             description = "lua shit";
