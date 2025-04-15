@@ -318,6 +318,11 @@
             path = ./lua;
             description = "lua shit";
           };
+                    rev-eng = {
+            path = ./rev-eng;
+            description = "reverse engineering binary stuff ";
+          };
+
 
           # Aliases
           c = c-cpp;
